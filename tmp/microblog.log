@@ -1,0 +1,837 @@
+2015-10-11 21:38:47,554 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:35]
+2015-10-12 21:36:32,652 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:35]
+2015-10-12 21:37:52,501 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:35]
+2015-10-12 21:43:43,444 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:35]
+2015-10-12 22:24:52,457 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:35]
+2015-10-17 23:29:06,995 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:35]
+2015-10-17 23:29:41,444 ERROR: Exception on / [GET] [in C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_login.py", line 792, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Juho\python\microblog\app\views.py", line 16, in index
+    form = PostForm()
+NameError: name 'PostForm' is not defined
+2015-10-17 23:29:50,712 ERROR: Exception on /index [GET] [in C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_login.py", line 792, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Juho\python\microblog\app\views.py", line 16, in index
+    form = PostForm()
+NameError: name 'PostForm' is not defined
+2015-10-17 23:29:57,623 ERROR: Exception on /index [GET] [in C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_login.py", line 792, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Juho\python\microblog\app\views.py", line 16, in index
+    form = PostForm()
+NameError: name 'PostForm' is not defined
+2015-10-17 23:30:50,899 ERROR: Exception on /index [GET] [in C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_login.py", line 792, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Juho\python\microblog\app\views.py", line 16, in index
+    form = PostForm()
+NameError: name 'PostForm' is not defined
+2015-10-17 23:31:01,559 ERROR: Exception on /index [GET] [in C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_login.py", line 792, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Juho\python\microblog\app\views.py", line 16, in index
+    form = PostForm()
+NameError: name 'PostForm' is not defined
+2015-10-17 23:31:39,706 ERROR: Exception on /index [GET] [in C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_login.py", line 792, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Juho\python\microblog\app\views.py", line 16, in index
+    form = PostForm()
+NameError: name 'PostForm' is not defined
+2015-10-17 23:32:19,787 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:35]
+2015-10-17 23:34:30,398 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:35]
+2015-10-17 23:50:41,195 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:35]
+2015-10-17 23:51:12,727 ERROR: Exception on /user/Juho [GET] [in C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_login.py", line 792, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Juho\python\microblog\app\views.py", line 93, in user
+    posts=posts)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\environment.py", line 830, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\environment.py", line 791, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\environment.py", line 765, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\loaders.py", line 125, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\environment.py", line 554, in compile
+    self.handle_exception(exc_info, source_hint=source)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\_compat.py", line 36, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\Juho\python\microblog\app\templates\user.html", line 31, in <module>
+    {% endfor %}
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\environment.py", line 459, in _parse
+    return Parser(self, source, name, encode_filename(filename)).parse()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 893, in parse
+    result = nodes.Template(self.subparse(), lineno=1)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 875, in subparse
+    rv = self.parse_statement()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 122, in parse_statement
+    return getattr(self, 'parse_' + self.stream.current.value)()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 229, in parse_block
+    node.body = self.parse_statements(('name:endblock',), drop_needle=True)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 157, in parse_statements
+    result = self.subparse(end_tokens)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 875, in subparse
+    rv = self.parse_statement()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 136, in parse_statement
+    self.fail_unknown_tag(token.value, token.lineno)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 89, in fail_unknown_tag
+    return self._fail_ut_eof(name, self._end_token_stack, lineno)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 82, in _fail_ut_eof
+    self.fail(' '.join(message), lineno)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 51, in fail
+    raise exc(msg, lineno, self.name, self.filename)
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'endfor'. Jinja was looking for the following tags: 'endblock'. The innermost block that needs to be closed is 'block'.
+2015-10-17 23:52:12,241 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:35]
+2015-10-17 23:52:15,673 ERROR: Exception on /user/Juho [GET] [in C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_login.py", line 792, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Juho\python\microblog\app\views.py", line 93, in user
+    posts=posts)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\environment.py", line 830, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\environment.py", line 791, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\environment.py", line 765, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\loaders.py", line 125, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\environment.py", line 554, in compile
+    self.handle_exception(exc_info, source_hint=source)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\_compat.py", line 36, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\Juho\python\microblog\app\templates\user.html", line 31, in <module>
+    {% endfor %}
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\environment.py", line 459, in _parse
+    return Parser(self, source, name, encode_filename(filename)).parse()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 893, in parse
+    result = nodes.Template(self.subparse(), lineno=1)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 875, in subparse
+    rv = self.parse_statement()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 122, in parse_statement
+    return getattr(self, 'parse_' + self.stream.current.value)()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 229, in parse_block
+    node.body = self.parse_statements(('name:endblock',), drop_needle=True)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 157, in parse_statements
+    result = self.subparse(end_tokens)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 875, in subparse
+    rv = self.parse_statement()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 136, in parse_statement
+    self.fail_unknown_tag(token.value, token.lineno)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 89, in fail_unknown_tag
+    return self._fail_ut_eof(name, self._end_token_stack, lineno)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 82, in _fail_ut_eof
+    self.fail(' '.join(message), lineno)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 51, in fail
+    raise exc(msg, lineno, self.name, self.filename)
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'endfor'. Jinja was looking for the following tags: 'endblock'. The innermost block that needs to be closed is 'block'.
+2015-10-18 00:16:24,686 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:35]
+2015-10-18 00:18:04,600 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:35]
+2015-10-18 00:35:01,038 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:35]
+2015-10-18 00:38:38,769 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:35]
+2015-10-18 00:51:47,929 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:35]
+2015-10-18 00:53:47,319 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:35]
+2015-10-18 00:56:56,624 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:35]
+2015-10-18 00:57:40,171 ERROR: Exception on /search_results/sadfsad [GET] [in C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_login.py", line 792, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Juho\python\microblog\app\views.py", line 160, in search_results
+    results = Post.query.whoosh_search(query, MAX_SEARCH_RESULTS).all()
+AttributeError: 'BaseQuery' object has no attribute 'whoosh_search'
+2015-10-20 20:58:04,751 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:37]
+2015-10-20 20:59:12,817 ERROR: Exception on /search_results/ss [GET] [in C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_login.py", line 792, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Juho\python\microblog\app\views.py", line 160, in search_results
+    results = Post.query.whoosh_search(query, MAX_SEARCH_RESULTS).all()
+AttributeError: 'BaseQuery' object has no attribute 'whoosh_search'
+2015-10-20 21:04:56,124 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:37]
+2015-10-20 21:05:55,036 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:37]
+2015-10-20 21:06:18,343 ERROR: Exception on /search_results/asd [GET] [in C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_login.py", line 792, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Juho\python\microblog\app\views.py", line 160, in search_results
+    results = Post.query.whoosh_search(query, MAX_SEARCH_RESULTS).all()
+AttributeError: 'BaseQuery' object has no attribute 'whoosh_search'
+2015-10-20 21:47:27,498 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:37]
+2015-10-20 21:47:39,182 ERROR: Exception on /search_results/ds [GET] [in C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_login.py", line 792, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Juho\python\microblog\app\views.py", line 162, in search_results
+    results = Post.query.whoosh_search(query, MAX_SEARCH_RESULTS).all()
+AttributeError: 'BaseQuery' object has no attribute 'whoosh_search'
+2015-10-20 21:58:21,700 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:37]
+2015-10-20 22:09:27,240 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:37]
+2015-10-20 22:09:38,663 ERROR: Exception on /index [POST] [in C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_login.py", line 792, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Juho\python\microblog\app\views.py", line 25, in index
+    send_email('New post', ADMINS[0], ADMINS[0], 'test post txt', 'test post html')
+  File "C:\Users\Juho\python\microblog\app\emails.py", line 17, in send_email
+    mail.send(msg)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_mail.py", line 156, in configure_host
+    host = smtplib.SMTP_SSL(self.mail.server, self.mail.port)
+  File "C:\Users\Juho\Anaconda3\lib\smtplib.py", line 910, in __init__
+    source_address)
+  File "C:\Users\Juho\Anaconda3\lib\smtplib.py", line 242, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\Juho\Anaconda3\lib\smtplib.py", line 321, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\Juho\Anaconda3\lib\smtplib.py", line 916, in _get_socket
+    self.source_address)
+  File "C:\Users\Juho\Anaconda3\lib\socket.py", line 494, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\Juho\Anaconda3\lib\socket.py", line 533, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11003] getaddrinfo failed
+2015-10-20 22:20:11,427 ERROR: Exception on /index [POST] [in C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_login.py", line 792, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Juho\python\microblog\app\views.py", line 25, in index
+    #        send_email('New post', ADMINS[0], ADMINS[0], 'test post txt', 'test post html')
+  File "C:\Users\Juho\python\microblog\app\emails.py", line 17, in send_email
+    mail.send(msg)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_mail.py", line 156, in configure_host
+    host = smtplib.SMTP_SSL(self.mail.server, self.mail.port)
+  File "C:\Users\Juho\Anaconda3\lib\smtplib.py", line 910, in __init__
+    source_address)
+  File "C:\Users\Juho\Anaconda3\lib\smtplib.py", line 242, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\Juho\Anaconda3\lib\smtplib.py", line 321, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\Juho\Anaconda3\lib\smtplib.py", line 916, in _get_socket
+    self.source_address)
+  File "C:\Users\Juho\Anaconda3\lib\socket.py", line 494, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\Juho\Anaconda3\lib\socket.py", line 533, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11003] getaddrinfo failed
+2015-10-20 22:20:41,904 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:37]
+2015-10-20 22:21:16,985 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:37]
+2015-10-20 22:21:24,713 ERROR: Exception on /index [POST] [in C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_login.py", line 792, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Juho\python\microblog\app\views.py", line 25, in index
+    send_email('New post', ADMINS[0], ADMINS[0], 'test post txt', 'test post html')
+  File "C:\Users\Juho\python\microblog\app\emails.py", line 17, in send_email
+    mail.send(msg)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_mail.py", line 156, in configure_host
+    host = smtplib.SMTP_SSL(self.mail.server, self.mail.port)
+  File "C:\Users\Juho\Anaconda3\lib\smtplib.py", line 910, in __init__
+    source_address)
+  File "C:\Users\Juho\Anaconda3\lib\smtplib.py", line 242, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\Juho\Anaconda3\lib\smtplib.py", line 321, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\Juho\Anaconda3\lib\smtplib.py", line 916, in _get_socket
+    self.source_address)
+  File "C:\Users\Juho\Anaconda3\lib\socket.py", line 494, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\Juho\Anaconda3\lib\socket.py", line 533, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11003] getaddrinfo failed
+2015-10-20 22:23:08,699 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:37]
+2015-10-20 22:23:16,472 ERROR: Exception on /index [POST] [in C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_login.py", line 792, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Juho\python\microblog\app\views.py", line 25, in index
+    send_email('New post', ADMINS[0], ADMINS[0], 'test post txt', 'test post html')
+  File "C:\Users\Juho\python\microblog\app\emails.py", line 17, in send_email
+    mail.send(msg)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_mail.py", line 158, in configure_host
+    host = smtplib.SMTP(self.mail.server, self.mail.port)
+  File "C:\Users\Juho\Anaconda3\lib\smtplib.py", line 242, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\Juho\Anaconda3\lib\smtplib.py", line 321, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\Juho\Anaconda3\lib\smtplib.py", line 292, in _get_socket
+    self.source_address)
+  File "C:\Users\Juho\Anaconda3\lib\socket.py", line 494, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\Juho\Anaconda3\lib\socket.py", line 533, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11003] getaddrinfo failed
+2015-10-20 22:27:22,868 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:37]
+2015-10-20 22:27:50,859 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:37]
+2015-10-20 22:27:57,265 ERROR: Exception on /testmail [GET] [in C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Juho\python\microblog\app\views.py", line 33, in testmail
+    send_email('New post', ADMINS[0], ADMINS[0], 'test post txt', 'test post html')
+  File "C:\Users\Juho\python\microblog\app\emails.py", line 17, in send_email
+    mail.send(msg)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_mail.py", line 158, in configure_host
+    host = smtplib.SMTP(self.mail.server, self.mail.port)
+  File "C:\Users\Juho\Anaconda3\lib\smtplib.py", line 242, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\Juho\Anaconda3\lib\smtplib.py", line 321, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\Juho\Anaconda3\lib\smtplib.py", line 292, in _get_socket
+    self.source_address)
+  File "C:\Users\Juho\Anaconda3\lib\socket.py", line 494, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\Juho\Anaconda3\lib\socket.py", line 533, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11003] getaddrinfo failed
+2015-10-20 22:29:08,433 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:37]
+2015-10-20 22:29:11,309 ERROR: Exception on /testmail [GET] [in C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Juho\python\microblog\app\views.py", line 33, in testmail
+    send_email('New post', ADMINS[0], ADMINS[0], 'test post txt', 'test post html')
+  File "C:\Users\Juho\python\microblog\app\emails.py", line 17, in send_email
+    mail.send(msg)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_mail.py", line 158, in configure_host
+    host = smtplib.SMTP(self.mail.server, self.mail.port)
+  File "C:\Users\Juho\Anaconda3\lib\smtplib.py", line 242, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\Juho\Anaconda3\lib\smtplib.py", line 321, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\Juho\Anaconda3\lib\smtplib.py", line 292, in _get_socket
+    self.source_address)
+  File "C:\Users\Juho\Anaconda3\lib\socket.py", line 494, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\Juho\Anaconda3\lib\socket.py", line 533, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11003] getaddrinfo failed
+2015-10-21 21:10:16,478 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:39]
+2015-10-21 21:10:24,889 ERROR: Exception on / [GET] [in C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_login.py", line 792, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Juho\python\microblog\app\views.py", line 30, in index
+    posts=posts)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\templating.py", line 128, in render_template
+    context, ctx.app)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\templating.py", line 110, in _render
+    rv = template.render(context)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\environment.py", line 969, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\_compat.py", line 36, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\Juho\python\microblog\app\templates\base.html", line 55, in <module>
+    {% block content %}{% endblock %}
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\environment.py", line 966, in render
+    return concat(self.root_render_func(self.new_context(vars)))
+  File "C:\Users\Juho\python\microblog\app\templates\index.html", line 1, in <module>
+    {% extends "base.html" %}
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\_compat.py", line 36, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\Juho\python\microblog\app\templates\base.html", line 55, in <module>
+    {% block content %}{% endblock %}
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\environment.py", line 459, in _parse
+    return Parser(self, source, name, encode_filename(filename)).parse()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 893, in parse
+    result = nodes.Template(self.subparse(), lineno=1)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 875, in subparse
+    rv = self.parse_statement()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 122, in parse_statement
+    return getattr(self, 'parse_' + self.stream.current.value)()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 201, in parse_if
+    'name:endif'))
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 162, in parse_statements
+    self.fail_eof(end_tokens)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 96, in fail_eof
+    return self._fail_ut_eof(None, stack, lineno)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 82, in _fail_ut_eof
+    self.fail(' '.join(message), lineno)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 51, in fail
+    raise exc(msg, lineno, self.name, self.filename)
+jinja2.exceptions.TemplateSyntaxError: Unexpected end of template. Jinja was looking for the following tags: 'elif' or 'else' or 'endif'. The innermost block that needs to be closed is 'if'.
+2015-10-21 21:10:25,122 ERROR: Exception on /favicon.ico [GET] [in C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1453, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1436, in raise_routing_exception
+    raise request.routing_exception
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\ctx.py", line 286, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\werkzeug\routing.py", line 1483, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404: Not Found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1370, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1330, in handle_http_exception
+    return handler(e)
+  File "C:\Users\Juho\python\microblog\app\views.py", line 173, in not_found_error
+    return render_template('404.html'), 404
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\templating.py", line 128, in render_template
+    context, ctx.app)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\templating.py", line 110, in _render
+    rv = template.render(context)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\environment.py", line 969, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\_compat.py", line 36, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\Juho\python\microblog\app\templates\base.html", line 55, in <module>
+    {% block content %}{% endblock %}
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\environment.py", line 966, in render
+    return concat(self.root_render_func(self.new_context(vars)))
+  File "C:\Users\Juho\python\microblog\app\templates\404.html", line 2, in <module>
+    {% extends "base.html" %}
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\_compat.py", line 36, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\Juho\python\microblog\app\templates\base.html", line 55, in <module>
+    {% block content %}{% endblock %}
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\environment.py", line 459, in _parse
+    return Parser(self, source, name, encode_filename(filename)).parse()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 893, in parse
+    result = nodes.Template(self.subparse(), lineno=1)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 875, in subparse
+    rv = self.parse_statement()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 122, in parse_statement
+    return getattr(self, 'parse_' + self.stream.current.value)()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 201, in parse_if
+    'name:endif'))
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 162, in parse_statements
+    self.fail_eof(end_tokens)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 96, in fail_eof
+    return self._fail_ut_eof(None, stack, lineno)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 82, in _fail_ut_eof
+    self.fail(' '.join(message), lineno)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\jinja2\parser.py", line 51, in fail
+    raise exc(msg, lineno, self.name, self.filename)
+jinja2.exceptions.TemplateSyntaxError: Unexpected end of template. Jinja was looking for the following tags: 'elif' or 'else' or 'endif'. The innermost block that needs to be closed is 'if'.
+2015-10-21 21:11:56,893 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:39]
+2015-10-21 21:14:35,637 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:39]
+2015-10-21 21:17:04,692 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:39]
+2015-10-21 21:25:25,926 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:39]
+2015-10-21 21:28:29,832 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:39]
+2015-10-21 22:12:41,441 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:39]
+2015-10-21 22:12:46,434 ERROR: Exception on /index [GET] [in C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1473, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1666, in preprocess_request
+    rv = func()
+  File "C:\Users\Juho\python\microblog\app\views.py", line 80, in before_request
+    db.session.commit()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\sqlalchemy\orm\scoping.py", line 150, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\sqlalchemy\orm\session.py", line 790, in commit
+    self.transaction.commit()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\sqlalchemy\orm\session.py", line 399, in commit
+    self.session.dispatch.after_commit(self.session)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\sqlalchemy\event\attr.py", line 218, in __call__
+    fn(*args, **kw)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_sqlalchemy\__init__.py", line 194, in session_signal_after_commit
+    models_committed.send(session.app, changes=list(d.values()))
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\blinker-1.4-py3.4.egg\blinker\base.py", line 267, in send
+    for receiver in self.receivers_for(sender)]
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\blinker-1.4-py3.4.egg\blinker\base.py", line 267, in <listcomp>
+    for receiver in self.receivers_for(sender)]
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_whooshalchemy-0.56-py3.4.egg\flask_whooshalchemy.py", line 239, in _after_flush
+    for model, values in bytype.iteritems():
+AttributeError: 'dict' object has no attribute 'iteritems'
+2015-10-21 22:13:55,894 ERROR: Exception on /index [GET] [in C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1473, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1666, in preprocess_request
+    rv = func()
+  File "C:\Users\Juho\python\microblog\app\views.py", line 80, in before_request
+    db.session.commit()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\sqlalchemy\orm\scoping.py", line 150, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\sqlalchemy\orm\session.py", line 790, in commit
+    self.transaction.commit()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\sqlalchemy\orm\session.py", line 399, in commit
+    self.session.dispatch.after_commit(self.session)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\sqlalchemy\event\attr.py", line 218, in __call__
+    fn(*args, **kw)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_sqlalchemy\__init__.py", line 194, in session_signal_after_commit
+    models_committed.send(session.app, changes=list(d.values()))
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\blinker-1.4-py3.4.egg\blinker\base.py", line 267, in send
+    for receiver in self.receivers_for(sender)]
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\blinker-1.4-py3.4.egg\blinker\base.py", line 267, in <listcomp>
+    for receiver in self.receivers_for(sender)]
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_whooshalchemy-0.56-py3.4.egg\flask_whooshalchemy.py", line 239, in _after_flush
+    for model, values in bytype.iteritems():
+AttributeError: 'dict' object has no attribute 'iteritems'
+2015-10-21 22:14:24,585 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:39]
+2015-10-21 22:31:48,360 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:42]
+2015-10-21 22:42:50,268 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:42]
+2015-10-21 22:44:05,737 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:42]
+2015-10-21 22:44:05,884 ERROR: Exception on /index [GET] [in C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\sqlalchemy\engine\base.py", line 1139, in _execute_context
+    context)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\sqlalchemy\engine\default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: user
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1473, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask\app.py", line 1666, in preprocess_request
+    rv = func()
+  File "C:\Users\Juho\python\microblog\app\views.py", line 17, in before_request
+    if g.user.is_authenticated:
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\werkzeug\local.py", line 338, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\werkzeug\local.py", line 297, in _get_current_object
+    return self.__local()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_login.py", line 47, in <lambda>
+    current_user = LocalProxy(lambda: _get_user())
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_login.py", line 858, in _get_user
+    current_app.login_manager._load_user()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_login.py", line 389, in _load_user
+    return self.reload_user()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\flask_login.py", line 351, in reload_user
+    user = self.user_callback(user_id)
+  File "C:\Users\Juho\python\microblog\app\views.py", line 12, in load_user
+    return User.query.get(int(id))
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\sqlalchemy\orm\query.py", line 818, in get
+    return self._get_impl(ident, loading.load_on_ident)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\sqlalchemy\orm\query.py", line 851, in _get_impl
+    return fallback_fn(self, key)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\sqlalchemy\orm\loading.py", line 217, in load_on_ident
+    return q.one()
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\sqlalchemy\orm\query.py", line 2472, in one
+    ret = list(self)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\sqlalchemy\orm\query.py", line 2515, in __iter__
+    return self._execute_and_instances(context)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\sqlalchemy\orm\query.py", line 2530, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\sqlalchemy\engine\base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\sqlalchemy\sql\elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\sqlalchemy\engine\base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\sqlalchemy\engine\base.py", line 1146, in _execute_context
+    context)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\sqlalchemy\engine\base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\sqlalchemy\util\compat.py", line 188, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=exc_value)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\sqlalchemy\util\compat.py", line 181, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\sqlalchemy\engine\base.py", line 1139, in _execute_context
+    context)
+  File "C:\Users\Juho\Anaconda3\lib\site-packages\sqlalchemy\engine\default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: user [SQL: 'SELECT user.id AS user_id, user.nickname AS user_nickname, user.email AS user_email, user.about_me AS user_about_me, user.last_seen AS user_last_seen \nFROM user \nWHERE user.id = ?'] [parameters: (1,)]
+2015-10-21 22:44:24,963 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:42]
+2015-10-21 22:44:27,709 INFO: microblog startup [in C:\Users\Juho\python\microblog\app\__init__.py:42]
